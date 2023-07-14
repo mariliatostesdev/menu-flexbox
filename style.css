@@ -1,0 +1,68 @@
+body {
+  font-family: "Public Sans", Arial, Helvetica, sans-serif;
+  top: 5px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: inline;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+  margin: 15px;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.name-thebank {
+  font-weight: 800;
+  font-size: 20px;
+  padding-left: 6px;
+}
+
+#selected {
+  background-color: #5bc241;
+  max-width: 100%;
+  color: white;
+  padding: 11px 7px;
+}
+
+.bg-sign-up:hover {
+  border: 1px solid #2b9940;
+}
+
+.bg-sign-up {
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  border-radius: 15rem;
+  background-color: #5bc241;
+  padding: 11px 0;
+  margin: 15px;
+}
+
+li#sign-up {
+  color: white;
+  margin: 10px 20px;
+}
+
+#sign-up:hover {
+  color: black;
+}

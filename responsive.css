@@ -1,0 +1,95 @@
+@media (max-width: 784px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 41px;
+    padding-inline: 19%;
+  }
+
+  .logo-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 75px;
+    width: 100%;
+  }
+
+  .name-thebank {
+    font-size: 40px;
+    padding-left: 8px;
+    padding-right: 15px;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 235px;
+  }
+
+  li {
+    font-size: 40px;
+    text-align: center;
+    min-width: 203px;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  li#selected {
+    min-width: 233px;
+    max-width: 250px;
+    margin: 8px 0;
+    padding: 17px 38px;
+  }
+
+  li#sign-up {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .bg-sign-up {
+    border-radius: 0.5rem;
+    line-height: 100%;
+    margin: 25px 0;
+    justify-content: center;
+    padding: 15px 22px;
+    flex-basis: 150px;
+  }
+
+  .menu-items {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 254px) {
+  .name-thebank,
+  li {
+    font-size: 30px;
+  }
+
+  li#sign-up {
+    font-size: 15px;
+  }
+
+  li#selected {
+    min-width: 160px;
+    max-width: 100px;
+  }
+
+  .bg-sign-up {
+    border-radius: 0.5rem;
+    line-height: 100%;
+    margin: 25px 0;
+    min-width: 130px;
+    flex-basis: 130px;
+    text-align: center;
+  }
+}
