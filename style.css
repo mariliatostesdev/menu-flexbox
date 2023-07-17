@@ -42,11 +42,15 @@ li {
   padding-left: 6px;
 }
 
-#selected a {
+#hover-square:hover {
   background-color: #5bc241;
   max-width: 100%;
-  color: white;
   padding: 11px 7px;
+  margin: 8px;
+}
+
+#hover-square a:hover {
+  color: white;
 }
 
 .bg-sign-up:hover {

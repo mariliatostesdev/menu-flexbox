@@ -1,4 +1,4 @@
-@media (max-width: 784px) {
+@media (max-width: 750px) {
   .main {
     display: flex;
     flex-wrap: wrap;
@@ -42,7 +42,7 @@
     margin-bottom: 25px;
   }
 
-  li#selected {
+  #hover-square {
     min-width: 233px;
     max-width: 250px;
     margin: 8px 0;
